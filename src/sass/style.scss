@@ -1,0 +1,21 @@
+/*!
+    Theme Name: KWOO
+    Theme URI: http://www.kleskompaniet.no/
+    Description: WooCommerce theme for kleskompaniet.no
+    Version: 1.0.0
+    Author: Marius Akerbæk
+    Author URI: https//ludicrumedia.com
+    Tags: Gulp, WooCommerce
+    Text Domain: kwoo
+
+    License: MIT
+    License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+@import 'variables';
+
+//Reset and grid from bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot';
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
+body  { background: $white; }
