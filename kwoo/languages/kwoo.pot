@@ -13,3 +13,58 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: kwoo/footer.php:4, src/footer.php:4
+msgid "Icons made by"
+msgstr ""
+
+#: kwoo/footer.php:5, src/footer.php:5
+msgid "from"
+msgstr ""
+
+#: kwoo/footer.php:6, src/footer.php:6
+msgid "is licensed by"
+msgstr ""
+
+#: kwoo/footer.php:7, src/footer.php:7
+msgid "Kleskompaniet.no is developed by"
+msgstr ""
+
+#: kwoo/functions.php:65, src/functions.php:65
+msgid "Frontpage banners"
+msgstr ""
+
+#: kwoo/functions.php:71, src/functions.php:71
+msgid "Main banner image"
+msgstr ""
+
+#: kwoo/functions.php:76, kwoo/functions.php:101, src/functions.php:76, src/functions.php:101
+msgctxt "Main banner"
+msgid "Text"
+msgstr ""
+
+#: kwoo/functions.php:82, kwoo/functions.php:107, src/functions.php:82, src/functions.php:107
+msgctxt "Main banner"
+msgid "URL"
+msgstr ""
+
+#: kwoo/functions.php:88, kwoo/functions.php:113, src/functions.php:88, src/functions.php:113
+msgctxt "Main banner"
+msgid "Button text"
+msgstr ""
+
+#: kwoo/functions.php:96, src/functions.php:96
+msgid "Small banner image (left)"
+msgstr ""
+
+#: kwoo/header.php:16, src/header.php:16
+msgid "Worldwide shipping always"
+msgstr ""
+
+#: kwoo/header.php:18, src/header.php:18
+msgctxt "Shipping price on top bar"
+msgid "NOK 99,-"
+msgstr ""
+
+#: kwoo/header.php:21, src/header.php:21
+msgid "For all questions: "
+msgstr ""

@@ -12,10 +12,24 @@
     License URI: http://opensource.org/licenses/mit-license.php
 */
 
+//Google fonts / Icon fonts
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Oswald');
+@import 'icofont';
+
+//Config: Variables
 @import 'variables';
 
 //Reset and grid from bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot';
 @import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
+//Mixins and helpers
+@import '../../node_modules/bootstrap/scss/mixins/screen-reader';
+@import 'mixins/poly-fluid-sizing';
+@import 'mixins/breakpoint';
+@import 'helpers';
+
+//Templates
+@import 'templates/header';
 
 body  { background: $white; }

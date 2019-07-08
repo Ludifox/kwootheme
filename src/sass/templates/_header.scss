@@ -1,0 +1,10 @@
+#top-bar {
+    img {
+        width: 24px;
+        height: auto;
+
+        @include breakpoint(md) {
+            width: 32px;
+        }
+    }
+}

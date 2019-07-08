@@ -14,6 +14,8 @@ import named from 'vinyl-named';
 import wpPot from 'gulp-wp-pot';
 import replace from 'gulp-replace';
 
+var DEVFOLDER = 'C:\\wamp64\\www\\kr\\wp-content\\themes\\kwoo';
+
 export const styles = () => {
     return src('src/sass/style.scss')
     .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
@@ -34,6 +36,10 @@ export const images = () => {
 export const copy = () => {
     return src(['src/**/*', '!src/{images,js,sass}', '!src/{images,js,sass}/**/*'])
     .pipe(dest('kwoo'));
+}
+
+export const push = () => {
+    return src('kwoo/**/*').pipe(dest(DEVFOLDER));
 }
 
 export const clean = () => del(['kwoo']);
@@ -83,6 +89,6 @@ export const watchChanges = () => {
     watch('src/js/**/*.js', scripts);
 }
 
-export const dev = series(clean, parallel(styles, images, copy, scripts), watchChanges);
+export const dev = series(clean, parallel(styles, images, copy, scripts,), watchChanges);
 export const build = series(clean, parallel(styles, images, copy, scripts), pot);
 export default dev;
